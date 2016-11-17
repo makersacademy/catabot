@@ -41,7 +41,7 @@ This is a Catabot Slack bot built with Botkit.
 var Botkit = require('botkit');
 
 
-if (!process.env.token) {
+if (!process.env.SLACK_TOKEN) {
   console.log('Error: Specify token in environment');
   process.exit(1);
 }
@@ -51,7 +51,7 @@ var controller = Botkit.slackbot({
 });
 
 controller.spawn({
-  token: process.env.token
+  token: process.env.SLACK_TOKEN
 }).startRTM(function(err) {
   if (err) {
     throw new Error(err);
