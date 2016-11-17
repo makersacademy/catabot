@@ -1,0 +1,26 @@
+{
+  "name": "catabot",
+  "version": "0.0.1",
+  "description": "A bot to replace our office manager.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makersacademy/catabot.git"
+  },
+  "keywords": [
+    "bot",
+    "sweary"
+  ],
+  "author": "Sam Morgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makersacademy/catabot/issues"
+  },
+  "homepage": "https://github.com/makersacademy/catabot#readme",
+  "devDependencies": {
+    "botkit": "^0.4.1"
+  }
+}
