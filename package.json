@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/makersacademy/catabot#readme",
   "devDependencies": {
+    "beepboop-botkit": "^1.4.0",
     "botkit": "^0.4.1"
   }
 }
