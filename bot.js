@@ -62,4 +62,6 @@ controller.on('direct_mention', function(bot, message) {
   bot.reply(message, 'fuck off and look for it yourself');
 });
 
-
+controller.hears('hello',['direct_message','direct_mention','mention'],function(bot,message) {
+  bot.reply(message,'Hello yourself.');
+});
